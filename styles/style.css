@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-   /*  */ background-color: #F1F1F3;
+    /* background-color: #F1F1F3; */
 }
 .text-color1{
     color: #0E0E0E;
@@ -44,5 +44,64 @@ header h1{
 }
 header img{
     padding-right: 60px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+
+/* The vision of future section */
+.section2{
+    margin-top: 80px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.section2 .card-item1{
+    background-color: #638cbbda;
+   /*  background-color: rgba(84, 144, 245, 0.2); */
+    /* opacity: 0.2; */
+    border-radius: 16px;
+    padding-left: 24px;
+}
+.section2 .card-item1 button{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 17px;
+}
+.section2 .card-item2{
+    background-color: #8ee6b5;
+   /*  background-color: rgba(84, 144, 245, 0.2); */
+    /* opacity: 0.2; */
+    border-radius: 16px;
+    padding-left: 24px;
+}
+.section2 .card-item2 button{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 17px;
+}
+.section2 .card-item3{
+    background-color: #fae3af;
+   /*  background-color: rgba(84, 144, 245, 0.2); */
+    /* opacity: 0.2; */
+    border-radius: 16px;
+    padding-left: 24px;
+}
+.section2 .card-item3 button{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 17px;
 }
