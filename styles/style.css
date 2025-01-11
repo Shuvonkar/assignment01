@@ -112,7 +112,45 @@ header img{
     display: flex;
     gap:32px;
     padding: 80px;
+    border-radius: 15px;
 }
 .section3 .card img{
     border-radius: 24px;
+}
+
+/* Donate for Bangladesh section */
+.section4 p{
+    padding: 0 105px;
+    margin-bottom: 32px;
+}
+.section4 > h1{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.section4 .card{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 105px;
+    margin-bottom: 32px;
+}
+.section4 .card-item1{
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.section4 .input-field{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 0 124px;
+}
+.section4 .input-field input{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.section4 .card-item2{
+    padding: 40px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
 }
