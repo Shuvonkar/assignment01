@@ -17,6 +17,28 @@ body{
     border: none;
     padding: 17px;
 }
+
+/* navbar section */
+nav{
+    margin-bottom: 20px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    color: #006A50;
+    border-radius: 8px;
+    tab-size: 18px;
+    font-weight: 600;
+    border: #006A50;
+    background-color: white;
+    padding: 15px 30px;
+    margin-top: 24px;
+}
+nav h1{
+    margin-top: 24px;
+}
+
 /* main content header */
 .main-content{
     background-color: #F1F1F3;
@@ -30,6 +52,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 60px;
+    border-radius: 24px;
 }
 header p{
     font-size: 24px;
@@ -171,6 +194,10 @@ header img{
 .section5 h1{
     padding: 0 64px;
 }
+.section5 input[type="text"]{
+    border-radius: 8px;
+    border: none;
+}
 .section5 .section5-content{
     padding: 80px 265px;
 }
@@ -228,11 +255,23 @@ a:hover input[type="submit"]{
     padding: 48px 24px;
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: 25px 20px;
+    border-radius: 16px;
 }
 .quote .p1{
     margin-bottom: 12px;
 }
 .quote h1{
     margin-bottom: 4px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+footer h1{
+    padding-top: 50px;
+}
+footer hr{
+    padding: 0 239px;
 }
