@@ -154,3 +154,85 @@ header img{
     background-color: #C6E4D6;
     border-radius: 16px;
 }
+.section4 button{
+   
+}
+/* newsletter section */
+.section5{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+}
+.section5 p{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding: 0 64px;
+}
+.section5 h1{
+    padding: 0 64px;
+}
+.section5 .section5-content{
+    padding: 80px 265px;
+}
+.section5 form{
+    display: flex;
+    margin-bottom: 24px;
+}
+.section5 input[type="text"]{
+    padding: 18px;
+    width: 80%;
+}
+
+/* hover design */
+a:hover button{
+    /* padding: 12px 24px; */
+    font-size: 16px;
+    color: white;
+    background-color: #ff00aa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+a:hover input[type="submit"]{
+    /* padding: 12px 24px; */
+    font-size: 16px;
+    color: white;
+    background-color: #ff00aa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.card .card-item:hover{
+    background-color: #e4a1d3;
+}
+
+.card .card-item:hover a:hover button{
+    font-size: 16px;
+    color: white;
+    background-color: #ff00aa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+/* Quote section  */
+.quote{
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.quote .p1{
+    margin-bottom: 12px;
+}
+.quote h1{
+    margin-bottom: 4px;
+}
